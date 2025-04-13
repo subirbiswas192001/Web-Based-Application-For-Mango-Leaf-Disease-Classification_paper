@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b1d521;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center Container Styles */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #1a1a1a; /* Ensure background color covers full height */
+}
+
+/* Container Styles */
+.container {
+    margin-top: 100px;
+    max-width: 900px;
+    padding: 20px;
+    background: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Center text alignment */
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    background-color: #56b6f19d;
+    color: #050505;
+    padding: 20px;
+    
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e1da10;
+    text-align: center;
+}
+
+/* Header Image with Glow Effect */
+.header-image {
+    height: 300px; 
+    width: auto;  
+    vertical-align: middle;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+/* Glow Effect for Image Border */
+.glow-border {
+    border: 5px solid #3cff00;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #3cff00, 0 0 20px #3cff00, 0 0 30px #3cff00, 0 0 40px #3cff00;
+}
+
+/* Form Styles */
+.form-horizontal .form-group {
+    margin-bottom: 25px;
+}
+
+.control-label {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.form-control {
+    background-color: #333333;
+    border: none;
+    color: #ffffff;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 10px #007bff;
+}
+
+/* Button Styles */
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    box-shadow: 0 0 20px #28a745;
+    transform: scale(1.05);
+}
+
+.btn-success:active {
+    transform: scale(0.95);
+}
+
+/* Image and Prediction Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+i {
+    color: #007bff;
+}
+
+/* Glowing Effect */
+.glow {
+    text-shadow: 0 0 10px #28a745, 0 0 20px #28a745, 0 0 30px #28a745, 0 0 40px #28a745, 0 0 50px #28a745, 0 0 60px #28a745, 0 0 70px #28a745;
+}
